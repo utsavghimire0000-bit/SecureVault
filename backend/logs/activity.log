@@ -1,0 +1,311 @@
+2026-06-11 15:26:05  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 15:26:05  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 15:26:05  [INFO    ]   * Restarting with stat
+2026-06-11 15:26:07  [WARNING ]   * Debugger is active!
+2026-06-11 15:26:07  [INFO    ]   * Debugger PIN: 675-832-109
+2026-06-11 15:47:03  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:47:03] "[33mGET /register HTTP/1.1[0m" 404 -
+2026-06-11 15:47:06  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:47:06] "[33mGET /register HTTP/1.1[0m" 404 -
+2026-06-11 15:47:25  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:47:25] "[33mGET /register HTTP/1.1[0m" 404 -
+2026-06-11 15:47:26  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:47:26] "[33mGET /register HTTP/1.1[0m" 404 -
+2026-06-11 15:47:26  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:47:26] "[33mGET /register HTTP/1.1[0m" 404 -
+2026-06-11 15:47:27  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:47:27] "[33mGET /register HTTP/1.1[0m" 404 -
+2026-06-11 15:49:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:49:37] "[31m[1mGET /api/auth/register HTTP/1.1[0m" 405 -
+2026-06-11 15:56:17  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:56:17] "[31m[1mPOST /api/auth/register HTTP/1.1[0m" 400 -
+2026-06-11 15:56:48  [INFO    ]  REGISTER  user_id=1  email=utshab@test.com
+2026-06-11 15:56:48  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:56:48] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -
+2026-06-11 15:58:09  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 15:58:09  [INFO    ]  127.0.0.1 - - [11/Jun/2026 15:58:09] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 16:02:52  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:02:52] "GET /api/auth/me HTTP/1.1" 200 -
+2026-06-11 16:15:00  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-11 16:15:00  [INFO    ]   * Restarting with stat
+2026-06-11 16:15:00  [WARNING ]   * Debugger is active!
+2026-06-11 16:15:00  [INFO    ]   * Debugger PIN: 675-832-109
+2026-06-11 16:15:07  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-11 16:15:07  [INFO    ]   * Restarting with stat
+2026-06-11 16:15:07  [WARNING ]   * Debugger is active!
+2026-06-11 16:15:07  [INFO    ]   * Debugger PIN: 675-832-109
+2026-06-11 16:32:00  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:32:00] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 16:33:26  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:33:26] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 16:34:12  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:34:12] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 16:34:47  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 16:34:47  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:34:47] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 16:35:06  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:35:06] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 400 -
+2026-06-11 16:52:37  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 16:52:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:52:37] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 16:52:54  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:52:54] "GET /api/auth/me HTTP/1.1" 200 -
+2026-06-11 16:55:33  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:55:33] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 400 -
+2026-06-11 16:56:28  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:56:28] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 400 -
+2026-06-11 16:57:46  [INFO    ]  127.0.0.1 - - [11/Jun/2026 16:57:46] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 400 -
+2026-06-11 17:08:35  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 17:08:35  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 17:08:35  [INFO    ]   * Restarting with stat
+2026-06-11 17:08:36  [WARNING ]   * Debugger is active!
+2026-06-11 17:08:36  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 17:09:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:09:45] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:15:25  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:15:25] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:16:15  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:16:15] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:17:19  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:17:19] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:18:08  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:18:08] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:18:19  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:18:19] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:21:12  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:21:12] "[31m[1mPOST /api/files/upload HTTP/1.1[0m" 401 -
+2026-06-11 17:22:15  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 17:22:15  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:22:15] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 17:22:28  [INFO    ]  UPLOAD  user_id=1  file=ProjectT.txt  size=32.0 B
+2026-06-11 17:22:28  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:22:28] "[35m[1mPOST /api/files/upload HTTP/1.1[0m" 201 -
+2026-06-11 17:23:13  [INFO    ]  UPLOAD  user_id=1  file=ProjectT.txt  size=32.0 B
+2026-06-11 17:23:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:23:13] "[35m[1mPOST /api/files/upload HTTP/1.1[0m" 201 -
+2026-06-11 17:31:35  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:31:35] "[31m[1mGET /api/files HTTP/1.1[0m" 401 -
+2026-06-11 17:32:05  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:32:05] "GET /api/files HTTP/1.1" 200 -
+2026-06-11 17:36:22  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:36:22] "[35m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 17:43:10  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 17:43:10  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 17:43:10  [INFO    ]   * Restarting with stat
+2026-06-11 17:43:10  [WARNING ]   * Debugger is active!
+2026-06-11 17:43:10  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 17:43:20  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:43:20] "GET /api/files HTTP/1.1" 200 -
+2026-06-11 17:43:25  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:43:25] "[35m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 17:45:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 17:45:07] "[35m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 18:04:30  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 18:04:30  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 18:04:30  [INFO    ]   * Restarting with stat
+2026-06-11 18:04:30  [WARNING ]   * Debugger is active!
+2026-06-11 18:04:30  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 18:04:33  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:04:33] "[31m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 401 -
+2026-06-11 18:04:35  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:04:35] "[31m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 401 -
+2026-06-11 18:04:46  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 18:04:46  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:04:46] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 18:05:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:05:01] "[35m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 18:05:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:05:07] "GET /api/files HTTP/1.1" 200 -
+2026-06-11 18:05:16  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:05:16] "GET /api/auth/me HTTP/1.1" 200 -
+2026-06-11 18:08:53  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-11 18:08:54  [INFO    ]   * Restarting with stat
+2026-06-11 18:08:54  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-11 18:08:54  [WARNING ]   * Debugger is active!
+2026-06-11 18:08:54  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 18:08:54  [INFO    ]   * Restarting with stat
+2026-06-11 18:08:55  [WARNING ]   * Debugger is active!
+2026-06-11 18:08:55  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 18:08:56  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:08:56] "[31m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 401 -
+2026-06-11 18:09:27  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 18:09:27  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 18:09:27  [INFO    ]   * Restarting with stat
+2026-06-11 18:09:27  [WARNING ]   * Debugger is active!
+2026-06-11 18:09:27  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 18:09:29  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:09:29] "[31m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 401 -
+2026-06-11 18:09:30  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:09:30] "[31m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 401 -
+2026-06-11 18:11:47  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 18:11:47  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 18:11:47  [INFO    ]   * Restarting with stat
+2026-06-11 18:11:48  [WARNING ]   * Debugger is active!
+2026-06-11 18:11:48  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 18:11:50  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 18:11:50  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:11:50] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 18:12:04  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:12:04] "[35m[1mPOST /api/files/1/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 18:12:10  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:12:10] "[35m[1mPOST /api/files/2/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 18:13:00  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 18:13:00  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:13:00] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 18:13:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:13:13] "[35m[1mPOST /api/files/2/encrypt HTTP/1.1[0m" 501 -
+2026-06-11 18:14:09  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-11 18:14:09  [INFO    ]   * Restarting with stat
+2026-06-11 18:22:07  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 18:22:07  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 18:22:07  [INFO    ]   * Restarting with stat
+2026-06-11 18:22:08  [WARNING ]   * Debugger is active!
+2026-06-11 18:22:08  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 18:22:27  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:22:27] "[31m[1mPOST /api/files/2/encrypt HTTP/1.1[0m" 401 -
+2026-06-11 18:22:33  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 18:22:33  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:22:33] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 18:22:45  [INFO    ]  ENCRYPT  user_id=1  file=ProjectT.txt
+2026-06-11 18:22:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:22:45] "POST /api/files/2/encrypt HTTP/1.1" 200 -
+2026-06-11 18:25:03  [INFO    ]  DECRYPT  user_id=1  file=ProjectT.txt
+2026-06-11 18:25:03  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:25:03] "POST /api/files/2/decrypt HTTP/1.1" 200 -
+2026-06-11 18:26:24  [INFO    ]  SHARE_CREATE  user_id=1  file=ProjectT.txt
+2026-06-11 18:26:24  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:26:24] "POST /api/files/2/share HTTP/1.1" 200 -
+2026-06-11 18:29:18  [INFO    ]  SHARE_REVOKE  user_id=1  file=ProjectT.txt
+2026-06-11 18:29:18  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:29:18] "DELETE /api/files/2/share HTTP/1.1" 200 -
+2026-06-11 18:31:29  [INFO    ]  DELETE  user_id=1  file=ProjectT.txt
+2026-06-11 18:31:29  [INFO    ]  127.0.0.1 - - [11/Jun/2026 18:31:29] "DELETE /api/files/2 HTTP/1.1" 200 -
+2026-06-11 19:31:49  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 19:31:49  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 19:31:49  [INFO    ]   * Restarting with stat
+2026-06-11 19:31:50  [WARNING ]   * Debugger is active!
+2026-06-11 19:31:50  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 19:33:00  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:33:00] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 19:33:00  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 19:33:00  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:33:00] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 19:33:00  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:33:00] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:33:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:33:01] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:33:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:33:01] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:33:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:33:01] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:35:47  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 19:35:47  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 19:35:47  [INFO    ]   * Restarting with stat
+2026-06-11 19:35:48  [WARNING ]   * Debugger is active!
+2026-06-11 19:35:48  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 19:37:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:37:01] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:37:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:37:01] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:37:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:37:01] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:37:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:37:01] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:38:38  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:38:38] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 19:38:39  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 19:38:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:38:39] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 19:38:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:38:39] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:38:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:38:39] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:38:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:38:39] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:38:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:38:39] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 19:40:27  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:40:27] "OPTIONS /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 19:40:27  [INFO    ]  LOGOUT  user_id=1
+2026-06-11 19:40:27  [INFO    ]  127.0.0.1 - - [11/Jun/2026 19:40:27] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 20:48:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:48:07] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 20:48:07  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 20:48:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:48:07] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 20:48:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:48:07] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 20:48:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:48:07] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 20:48:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:48:07] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 20:48:07  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:48:07] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 20:49:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:49:01] "OPTIONS /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 20:49:01  [INFO    ]  LOGOUT  user_id=1
+2026-06-11 20:49:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 20:49:01] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 21:06:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:06:58] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 21:06:58  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 21:06:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:06:58] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 21:06:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:06:58] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:06:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:06:58] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:06:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:06:58] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:06:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:06:58] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:07:48  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:07:48] "OPTIONS /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 21:07:48  [INFO    ]  LOGOUT  user_id=1
+2026-06-11 21:07:48  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:07:48] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 21:45:56  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 21:45:56  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 21:45:56  [INFO    ]   * Restarting with stat
+2026-06-11 21:45:56  [WARNING ]   * Debugger is active!
+2026-06-11 21:45:56  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 21:53:00  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:53:00] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 21:53:01  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 21:53:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:53:01] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 21:53:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:53:01] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:53:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:53:01] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:53:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:53:01] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 21:53:01  [INFO    ]  127.0.0.1 - - [11/Jun/2026 21:53:01] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:16:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:16:39] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:16:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:16:39] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:29:32  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:32] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:29:32  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 22:29:32  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:32] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:29:32  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:32] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:29:32  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:32] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:29:32  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:32] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:29:32  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:32] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:29:46  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:46] "OPTIONS /api/logs HTTP/1.1" 200 -
+2026-06-11 22:29:46  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:46] "GET /api/logs HTTP/1.1" 200 -
+2026-06-11 22:29:56  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:56] "OPTIONS /api/logs HTTP/1.1" 200 -
+2026-06-11 22:29:56  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:29:56] "GET /api/logs HTTP/1.1" 200 -
+2026-06-11 22:30:05  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:30:05] "OPTIONS /api/files/1/share HTTP/1.1" 200 -
+2026-06-11 22:30:05  [INFO    ]  SHARE_CREATE  user_id=1  file=ProjectT.txt
+2026-06-11 22:30:05  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:30:05] "POST /api/files/1/share HTTP/1.1" 200 -
+2026-06-11 22:30:10  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:30:10] "OPTIONS /api/files/1/download HTTP/1.1" 200 -
+2026-06-11 22:30:10  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:30:10] "GET /api/files/1/download HTTP/1.1" 200 -
+2026-06-11 22:35:36  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:36] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:35:36  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 22:35:36  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:36] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:35:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:37] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:37] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:37] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:37] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:57  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:57] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:35:58  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 22:35:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:58] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:35:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:58] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:58] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:58] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:35:58  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:35:58] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:42:54  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:42:54] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:42:55  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 22:42:55  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:42:55] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 22:42:55  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:42:55] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:42:55  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:42:55] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:42:55  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:42:55] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:42:55  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:42:55] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:44:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:44:37] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:44:37  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:44:37] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:44:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:44:45] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:44:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:44:45] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:44:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:44:45] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 22:44:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 22:44:45] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:01:21  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:01:21] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 23:01:22  [WARNING ]  FAILED_LOGIN  email=utshab@test.com  ip=127.0.0.1
+2026-06-11 23:01:22  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:01:22] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2026-06-11 23:04:12  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:04:12] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 23:04:13  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 23:04:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:04:13] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 23:04:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:04:13] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:04:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:04:13] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:04:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:04:13] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:04:13  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:04:13] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:27:22  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 23:27:22  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 23:27:22  [INFO    ]   * Restarting with stat
+2026-06-11 23:27:23  [WARNING ]   * Debugger is active!
+2026-06-11 23:27:23  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 23:40:56  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 23:40:56  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 23:40:56  [INFO    ]   * Restarting with stat
+2026-06-11 23:40:57  [WARNING ]   * Debugger is active!
+2026-06-11 23:40:57  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 23:43:41  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 23:43:41  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-11 23:43:41  [INFO    ]   * Restarting with stat
+2026-06-11 23:43:42  [WARNING ]   * Debugger is active!
+2026-06-11 23:43:42  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-11 23:45:44  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:45:44] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-11 23:45:44  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-11 23:45:44  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:45:44] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-11 23:45:44  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:45:44] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:45:44  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:45:44] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:45:44  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:45:44] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:45:44  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:45:44] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:55:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:55:39] "OPTIONS /api/auth/register HTTP/1.1" 200 -
+2026-06-11 23:55:39  [INFO    ]  REGISTER  user_id=2  email=utsavghimire0000@gmail.com
+2026-06-11 23:55:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:55:39] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -
+2026-06-11 23:55:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:55:39] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:55:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:55:39] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:55:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:55:39] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:55:39  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:55:39] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-11 23:56:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:56:45] "OPTIONS /api/auth/logout HTTP/1.1" 200 -
+2026-06-11 23:56:45  [INFO    ]  LOGOUT  user_id=2
+2026-06-11 23:56:45  [INFO    ]  127.0.0.1 - - [11/Jun/2026 23:56:45] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-06-12 00:08:56  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:08:56] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-06-12 00:08:56  [INFO    ]  LOGIN  user_id=1  email=utshab@test.com
+2026-06-12 00:08:56  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:08:56] "POST /api/auth/login HTTP/1.1" 200 -
+2026-06-12 00:08:56  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:08:56] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-12 00:08:56  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:08:56] "OPTIONS /api/files?sort=date HTTP/1.1" 200 -
+2026-06-12 00:08:56  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:08:56] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-12 00:08:56  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:08:56] "GET /api/files?sort=date HTTP/1.1" 200 -
+2026-06-12 00:10:10  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:10:10] "OPTIONS /api/logs HTTP/1.1" 200 -
+2026-06-12 00:10:10  [INFO    ]  127.0.0.1 - - [12/Jun/2026 00:10:10] "GET /api/logs HTTP/1.1" 200 -
+2026-06-13 23:14:29  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-13 23:14:29  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-13 23:14:29  [INFO    ]   * Restarting with stat
+2026-06-13 23:14:29  [WARNING ]   * Debugger is active!
+2026-06-13 23:14:29  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-13 23:27:23  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-13 23:27:23  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-13 23:27:23  [INFO    ]   * Restarting with stat
+2026-06-13 23:27:23  [WARNING ]   * Debugger is active!
+2026-06-13 23:27:23  [INFO    ]   * Debugger PIN: 113-379-575
