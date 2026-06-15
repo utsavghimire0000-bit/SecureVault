@@ -413,3 +413,23 @@
 2026-06-15 13:10:12  [INFO    ]   * Restarting with stat
 2026-06-15 13:10:13  [WARNING ]   * Debugger is active!
 2026-06-15 13:10:13  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 13:16:21  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 13:16:21  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 13:16:21  [INFO    ]   * Restarting with stat
+2026-06-15 13:16:21  [WARNING ]   * Debugger is active!
+2026-06-15 13:16:21  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 13:46:47  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-15 13:46:47  [INFO    ]   * Restarting with stat
+2026-06-15 13:46:48  [WARNING ]   * Debugger is active!
+2026-06-15 13:46:48  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 13:46:56  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 13:46:56  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 13:46:56  [INFO    ]   * Restarting with stat
+2026-06-15 13:46:57  [WARNING ]   * Debugger is active!
+2026-06-15 13:46:57  [INFO    ]   * Debugger PIN: 113-379-575
