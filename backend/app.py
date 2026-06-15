@@ -3,8 +3,6 @@ SecureVault — Flask REST API with OTP Email Verification
 """
 
 import os, secrets, logging, random, string, importlib.util
-from dotenv import load_dotenv
-load_dotenv()
 from datetime import datetime, timedelta, timezone
 from functools import wraps
 
