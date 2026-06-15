@@ -309,3 +309,91 @@
 2026-06-13 23:27:23  [INFO    ]   * Restarting with stat
 2026-06-13 23:27:23  [WARNING ]   * Debugger is active!
 2026-06-13 23:27:23  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 09:53:13  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-15 09:53:13  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 09:53:13  [INFO    ]   * Restarting with stat
+2026-06-15 09:53:14  [WARNING ]   * Debugger is active!
+2026-06-15 09:53:14  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 10:19:56  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-15 10:19:56  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 10:19:56  [INFO    ]   * Restarting with stat
+2026-06-15 10:19:57  [WARNING ]   * Debugger is active!
+2026-06-15 10:19:57  [INFO    ]   * Debugger PIN: 143-875-854
+2026-06-15 11:54:58  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-15 11:54:58  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 11:54:58  [INFO    ]   * Restarting with stat
+2026-06-15 11:54:58  [WARNING ]   * Debugger is active!
+2026-06-15 11:54:58  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:08:04  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-15 12:08:04  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:08:04  [INFO    ]   * Restarting with stat
+2026-06-15 12:08:05  [WARNING ]   * Debugger is active!
+2026-06-15 12:08:05  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:12:48  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-15 12:12:48  [INFO    ]   * Restarting with stat
+2026-06-15 12:12:48  [WARNING ]   * Debugger is active!
+2026-06-15 12:12:48  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:12:52  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-15 12:12:53  [INFO    ]   * Restarting with stat
+2026-06-15 12:12:53  [WARNING ]   * Debugger is active!
+2026-06-15 12:12:53  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:16:04  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 12:16:04  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:16:04  [INFO    ]   * Restarting with stat
+2026-06-15 12:16:05  [WARNING ]   * Debugger is active!
+2026-06-15 12:16:05  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:19:26  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 12:19:26  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:19:26  [INFO    ]   * Restarting with stat
+2026-06-15 12:19:26  [WARNING ]   * Debugger is active!
+2026-06-15 12:19:26  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:28:05  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 12:28:05  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:28:05  [INFO    ]   * Restarting with stat
+2026-06-15 12:28:06  [WARNING ]   * Debugger is active!
+2026-06-15 12:28:06  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:31:46  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-15 12:31:47  [INFO    ]   * Restarting with stat
+2026-06-15 12:31:47  [WARNING ]   * Debugger is active!
+2026-06-15 12:31:47  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:33:18  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 12:33:18  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:33:18  [INFO    ]   * Restarting with stat
+2026-06-15 12:33:18  [WARNING ]   * Debugger is active!
+2026-06-15 12:33:18  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:37:02  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 12:37:02  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:37:02  [INFO    ]   * Restarting with stat
+2026-06-15 12:37:02  [WARNING ]   * Debugger is active!
+2026-06-15 12:37:02  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:44:10  [INFO    ]   * Detected change in 'C:\\Users\\utsav\\Music\\Capstone\\securevault_web\\backend\\app.py', reloading
+2026-06-15 12:44:11  [INFO    ]   * Restarting with stat
+2026-06-15 12:44:12  [WARNING ]   * Debugger is active!
+2026-06-15 12:44:12  [INFO    ]   * Debugger PIN: 113-379-575
+2026-06-15 12:45:02  [INFO    ]  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.103.45:5000
+2026-06-15 12:45:02  [INFO    ]  [33mPress CTRL+C to quit[0m
+2026-06-15 12:45:02  [INFO    ]   * Restarting with stat
+2026-06-15 12:45:02  [WARNING ]   * Debugger is active!
+2026-06-15 12:45:02  [INFO    ]   * Debugger PIN: 113-379-575
